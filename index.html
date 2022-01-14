@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./calc01.js"></script>
+    <link rel="stylesheet" href="./calc01.css">
+</head>
+
+<body>
+
+<div class="content">
+<div class="first">
+    <h3>Basic Math calculator:</h3>
+    <input type="text" id="number1"></input>
+    <input type="text" id="number2"></input>
+    
+ <div class="btn"><button id="sum" style="background-color:rgb(59, 224, 59);" onclick=add()>Add</button>
+    <button id="sub" style="background-color:yellow"; onclick=sub()>Sub</button>
+    <button id ="multi" style="background-color:burlywood" onclick=multi()>Multiply</button>
+    <button id ="divide" style="background-color:red" onclick=divide()>divide</button>
+</div>
+
+    
+    <p id="result">Result:</p>
+    
+</div>
+<div class="second">
+    <h3>Length converter:</h1>
+     <input type="text" placeholder="Length in Kilometers" id="number3"></input>
+     <button id ="mile" style="background-color:yellow" onclick="mile()">To mile</button>
+     <input type="text" placeholder="Length in miles" id="number4"></input>
+     <button id ="km" style="background-color:red" onclick="km()">To KM</button>
+    
+     <p id = "result2">Result:</p>
+    
+ </div>
+<div class="third">
+    <h3>Scientific calculator:</h3>
+    <input type ="text" id="number5"></input>
+<div class="btn">
+    <button id ="sin" style="background-color:rgb(59, 224, 59)" onclick=sqr()>Square</button>
+    <button id ="cos" style="background-color:yellow" onclick=cube()>cube</button>
+    <button id ="cot" style="background-color:burlywood" onclick=sqrt()>Square Root</button>
+    <button id ="cot" style="background-color:burlywood" onclick=sqc()>Square cube</button>
+    <button id ="tan" style="background-color:red" onclick=log()>log</button>
+    
+</div>  
+<p id= "result3">Result:</p>
+</div>
+<div class="fourth">
+    <h3>Temperature Converter</h3>
+    <input type="text" id="Temperatureinput"></input>
+    <button style="background-color:yellow" onclick ="farenhite()">To Celcius</button>
+    <button style="background-color:red" onclick="celcius()" >To Farenhite</button>
+    
+    <div><span id = "r">Result:</span></div>
+
+
+</div>
+</div>
+</body>
+</html>
